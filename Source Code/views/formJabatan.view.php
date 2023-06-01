@@ -5,7 +5,7 @@ class FormJabatanView
     public function renderAdd()
     {
         $dataForm = null;
-        $dataForm = '<label for="jabatan_nama">Nama Group:</label>
+        $dataForm = '<label for="jabatan_nama">Nama Jabatan:</label>
             <input type="text" id="jabatan_nama" name="jabatan_nama" required>
 
             <button type="submit" class="btn btn-info text-white" name="btn-submit" id="btn-submit">Submit</button>';
