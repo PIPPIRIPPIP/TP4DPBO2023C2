@@ -18,12 +18,12 @@ class FormJabatanView
         $view->write();
     }
 
-    public function renderUpdate($dataGroup)
+    public function renderUpdate($dataJabatan)
     {
         $dataForm = null;
-        $dataForm = '<label for="jabatan_nama">Nama Group:</label>
-            <input type="hidden" name="id" value="' . $dataGroup[0]['jabatan_id'] . '" >
-            <input type="text" id="jabatan_nama" name="jabatan_nama" value="' . $dataGroup[0]['jabatan_nama'] . '" required>
+        $dataForm = '<label for="jabatan_nama">Nama Jabatan:</label>
+            <input type="hidden" name="id" value="' . $dataJabatan[0]['jabatan_id'] . '" >
+            <input type="text" id="jabatan_nama" name="jabatan_nama" value="' . $dataJabatan[0]['jabatan_nama'] . '" required>
 
             <button type="submit" class="btn btn-info text-white" name="btn-update" id="btn-submit">Submit</button>';
 
